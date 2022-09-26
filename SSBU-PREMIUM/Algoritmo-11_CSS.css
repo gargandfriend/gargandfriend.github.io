@@ -1,0 +1,42 @@
+/*Import Poppins font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+/*set the font*/
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+}
+
+/*add a cool animated background*/
+body{
+    background: #000;
+    background: -webkit-linear-gradient(to right, #000, #434343);
+    background: linear-gradient(to right, #000, #434343);
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Make this table beautiful with css*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #d96459;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+    /*make the borders of the table rounded but dont make them disappear*/
+    border: 1px solid #494949;
+    overflow: hidden;
+}
+/*add a cool background*/
+th{
+    background-color: #d96459;
+    color: white;
+}
+
+/*Make the space between the lines smaller in h1*/
+h1{
+    line-height: 1px;	
+}
+
